@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="113.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="107"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/tb/entry" type="array">
+      <obj_property name="ElementShortName">entry[15:0]</obj_property>
+      <obj_property name="ObjectShortName">entry[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/current_fsm_state" type="array">
+      <obj_property name="ElementShortName">current_fsm_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_fsm_state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/partResult" type="array">
+      <obj_property name="ElementShortName">partResult[1:0]</obj_property>
+      <obj_property name="ObjectShortName">partResult[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/fsm_1/start_fpu" type="logic">
+      <obj_property name="ElementShortName">start_fpu</obj_property>
+      <obj_property name="ObjectShortName">start_fpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/fsm_1/fpu_valid" type="logic">
+      <obj_property name="ElementShortName">fpu_valid</obj_property>
+      <obj_property name="ObjectShortName">fpu_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/flags" type="array">
+      <obj_property name="ElementShortName">flags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">flags[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/result" type="array">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/start_fpu" type="logic">
+      <obj_property name="ElementShortName">start_fpu</obj_property>
+      <obj_property name="ObjectShortName">start_fpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/fpu_valid" type="logic">
+      <obj_property name="ElementShortName">fpu_valid</obj_property>
+      <obj_property name="ObjectShortName">fpu_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/instanceFpu/fpu_inst/core16_result" type="array">
+      <obj_property name="ElementShortName">core16_result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">core16_result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/instanceFpu/fpu_inst/core32_result" type="array">
+      <obj_property name="ElementShortName">core32_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core32_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/instanceFpu/fpu_inst/u_core16/u_add16/y" type="array">
+      <obj_property name="ElementShortName">y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/instanceFpu/fpu_inst/u_core16/u_add16/pack" type="array">
+      <obj_property name="ElementShortName">pack[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pack[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/instanceFpu/fpu_inst/u_core16/u_add16/y" type="array">
+      <obj_property name="ElementShortName">y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/instanceFpu/fpu_inst/u_core16/op" type="array">
+      <obj_property name="ElementShortName">op[2:0]</obj_property>
+      <obj_property name="ObjectShortName">op[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/instanceFpu/fpu_inst/core_op" type="array">
+      <obj_property name="ElementShortName">core_op[2:0]</obj_property>
+      <obj_property name="ObjectShortName">core_op[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/instanceFpu/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/op_save" type="array">
+      <obj_property name="ElementShortName">op_save[2:0]</obj_property>
+      <obj_property name="ObjectShortName">op_save[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/dp/op_enable" type="logic">
+      <obj_property name="ElementShortName">op_enable</obj_property>
+      <obj_property name="ObjectShortName">op_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/fsm_1/op_enable" type="logic">
+      <obj_property name="ElementShortName">op_enable</obj_property>
+      <obj_property name="ObjectShortName">op_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/fsm_1/alu_enable" type="logic">
+      <obj_property name="ElementShortName">alu_enable</obj_property>
+      <obj_property name="ObjectShortName">alu_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/top1/fsm_1/partResult" type="array">
+      <obj_property name="ElementShortName">partResult[1:0]</obj_property>
+      <obj_property name="ObjectShortName">partResult[1:0]</obj_property>
+   </wvobject>
+</wave_config>

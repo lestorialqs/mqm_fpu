@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../alu_mqm.srcs/sources_1/new/alu_fpu.v" \
+"../../../../alu_mqm.srcs/sources_1/new/datapath.v" \
+"../../../../alu_mqm.srcs/sources_1/new/dff.v" \
+"../../../../alu_mqm.srcs/sources_1/new/fp16_addsub_rne.v" \
+"../../../../alu_mqm.srcs/sources_1/new/fp16_div_rne.v" \
+"../../../../alu_mqm.srcs/sources_1/new/fp16_mul_rne.v" \
+"../../../../alu_mqm.srcs/sources_1/new/fp_addsub_rne.v" \
+"../../../../alu_mqm.srcs/sources_1/new/fp_core16.v" \
+"../../../../alu_mqm.srcs/sources_1/new/fp_core32.v" \
+"../../../../alu_mqm.srcs/sources_1/new/fp_div_rne.v" \
+"../../../../alu_mqm.srcs/sources_1/new/fp_mul_rne.v" \
+"../../../../alu_mqm.srcs/sources_1/new/fpu.v" \
+"../../../../alu_mqm.srcs/sources_1/new/instance.v" \
+"../../../../alu_mqm.srcs/sources_1/new/main_fsm.v" \
+"../../../../alu_mqm.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

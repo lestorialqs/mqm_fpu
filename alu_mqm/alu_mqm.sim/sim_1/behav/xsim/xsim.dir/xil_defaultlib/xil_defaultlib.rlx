@@ -1,0 +1,20 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/Asus/alu_mqm/alu_mqm.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sim_1/new/tb.v,1760953562,verilog,,,,tb,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/alu_fpu.v,1760942620,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/datapath.v,,fpu_unit,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/datapath.v,1760944844,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/dff.v,,datapath,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/dff.v,1760802261,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp16_addsub_rne.v,,flopenr;flopenr4;flopr;flopr2;flopr3;flopr4;mux2;mux4,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp16_addsub_rne.v,1760946939,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp16_div_rne.v,,fp16_addsub_rne,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp16_div_rne.v,1760954375,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp16_mul_rne.v,,fp16_div_rne,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp16_mul_rne.v,1760953150,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp_addsub_rne.v,,fp16_mul_rne,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp_addsub_rne.v,1760946943,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp_core16.v,,fp_addsub_rne,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp_core16.v,1760953301,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp_core32.v,,fp_core16,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp_core32.v,1760942620,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp_div_rne.v,,fp_core32,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp_div_rne.v,1760942620,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp_mul_rne.v,,fp_div_rne,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fp_mul_rne.v,1760942620,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fpu.v,,fp_mul_rne,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/fpu.v,1760947085,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/instance.v,,fpu_new,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/instance.v,1760945938,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/main_fsm.v,,instance_top,,,,,,,,
+C:/Users/Asus/alu_mqm/alu_mqm.srcs/sources_1/new/main_fsm.v,1760950081,verilog,,C:/Users/Asus/alu_mqm/alu_mqm.srcs/sim_1/new/tb.v,,mainfsm,,,,,,,,
